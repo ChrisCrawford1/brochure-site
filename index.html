@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./fonts.css" />
+    <title>Full Crust | Bakery</title>
+  </head>
+  <body>
+    <header class="relative">
+      <!-- Navbar -->
+      <div
+        class="absolute top-0 left-0 right-0 z-10 flex justify-between p-4 oswald ml-4 mr-4"
+      >
+        <h1 class="text-md sm:text-3xl text-white font-bold">Full Crust</h1>
+        <ul class="flex space-x-4 sm:text-lg text-md">
+          <li>
+            <a href="#" class="text-white">Home</a>
+          </li>
+          <li><a href="#featured-products" class="text-white">Products</a></li>
+          <li><a href="#contact" class="text-white">Contact</a></li>
+        </ul>
+      </div>
+      <!-- / Navbar -->
+
+      <!-- Background Image -->
+      <div
+        class="relative bg-cover bg-center bg-no-repeat text-center h-screen"
+        style="background-image: url('./img/Bakery.jpg')"
+      >
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-[rgba(0,0,0,0.3)]"></div>
+        <!-- / Overlay -->
+
+        <!-- CTA -->
+        <div class="absolute inset-0 flex items-center justify-center">
+          <div class="text-white text-center">
+            <h2 class="mb-1 text-5xl font-bold oswald">
+              Artisanal Deliciousness
+            </h2>
+            <h4 class="mb-1 text-2xl font-light nunito">
+              Always fresh, always authentic.
+            </h4>
+            <a href="#featured-products" class="text-lg hover:underline nunito"
+              >Latest Products</a
+            >
+          </div>
+        </div>
+        <!-- / CTA -->
+      </div>
+    </header>
+
+    <main>
+      <!-- Featured Products -->
+      <section id="featured-products" class="p-10">
+        <div>
+          <h1 class="text-center pb-4 text-4xl oswald">Our Most Popular</h1>
+          <p class="text-muted nunito text-center mb-2 sm:mb-0">
+            We pride ourselves on making the best quality time, here are a few
+            of our bestsellers.
+          </p>
+          <div
+            class="flex flex-col space-y-2 sm:space-y-0 items-center sm:grid sm:gap-6 sm:gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:place-items-center sm:p-6"
+          >
+            <div class="w-5/6">
+              <img
+                class="rounded-lg"
+                src="./img/SourdoughLoaf.jpg"
+                alt="Sourdough Loaf"
+              />
+              <div class="p-2 text-center nunito">
+                <h1 class="font-bold">
+                  Our Signature Sourdough
+                </h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Mollitia, fugit.
+                </p>
+                <span class="text-sm">$7.95</span>
+              </div>
+            </div>
+            <div class="w-5/6">
+              <img
+                class="rounded-lg"
+                src="./img/Croissant.jpg"
+                alt="Croissant"
+              />
+              <div class="p-2 text-center nunito">
+                <h1 class="font-bold">Hand Crafted Croissants</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Mollitia, fugit.
+                </p>
+                <span class="text-sm">$4.00</small>
+              </div>
+            </div>
+            <div class="w-5/6">
+              <img class="rounded-lg" src="./img/Macroons.jpg" alt="Macroons" />
+              <div class="p-2 text-center nunito">
+                <h1 class="font-bold">Delicious Macroons</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Mollitia, fugit.
+                </p>
+                <span class="text-sm">$2.00</span>
+              </div>
+            </div>
+            <div class="w-5/6">
+              <img
+                class="rounded-lg"
+                src="./img/SweetLoaf.jpg"
+                alt="Sweet Loaf"
+              />
+              <div class="p-2 text-center nunito">
+                <h1 class="font-bold">Sweet Tea Loaf</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Mollitia, fugit.
+                </p>
+                <span class="text-sm">$5.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- / Featured Products -->
+
+      <!-- Top Reviews -->
+      <section id="reviews" class="bg-gray-100 p-10">
+        <div>
+          <h1 class="text-center text-4xl oswald pb-4">
+            What Our Customers Say
+          </h1>
+          <p class="text-muted nunito text-center mb-2 sm:mb-0">
+            We always value what our customers think of our products and
+            services, heres what a couple of them have said so far.
+          </p>
+        </div>
+        <div class="flex flex-col items-center space-y-4">
+          <div class="w-3/4">
+            <h1 class="text-center pt-4 text-2xl oswald">
+              "A staple of the community"
+            </h1>
+            <div class="text-center p-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="nunito text-center mb-2 sm:mb-0">
+              We can always rely on Full Crust to have the best products at fair
+              prices and fantastic customer service. I will be back time and
+              time again! - <span class="italic">Sarah M.</span>
+            </p>
+          </div>
+          <div class="w-3/4">
+            <h1 class="text-center pt-4 text-2xl oswald">
+              "Always a pleasure"
+            </h1>
+            <div class="text-center p-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="nunito text-center mb-2 sm:mb-0">
+              The pastries are fantastic, the staff are always welcoming and
+              friendly. My only issue with Full Crust is that the parking can at
+              times be a nightmare, which I guess is a symptom of their success,
+              thats the only thing I can find fault with. -
+              <span class="italic">John D.</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- / Top Reviews -->
+
+      <!-- Contact -->
+      <section id="contact" class="p-10">
+        <div>
+          <h1 class="text-center pb-4 text-4xl oswald">Get In Touch!</h1>
+          <p class="text-muted nunito text-center mb-4">
+            We love hearing from our customers. If you have a question or an
+            issue, please submit a question below and we will get back to you as
+            soon as possible!
+          </p>
+        </div>
+        <form class="w-full max-w-lg mx-auto">
+          <div class="flex flex-wrap">
+            <div class="w-full px-3">
+              <label
+                class="block uppercase tracking-wide text-sm mb-2 oswald"
+                for="email"
+              >
+                E-mail
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-100 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight"
+                id="email"
+                type="email"
+              />
+            </div>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full px-3">
+              <label
+                class="block uppercase tracking-wide text-sm mb-2 oswald"
+                for="message"
+              >
+                Your Message
+              </label>
+              <textarea
+                class="no-resize block w-full bg-gray-100 border border-gray-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                id="message"
+              ></textarea>
+              <button
+                class="shadow bg-emerald-400 hover:bg-emerald-500 focus:shadow-outline focus:outline-none text-white oswald py-2 px-6 rounded"
+                type="button"
+              >
+                Send
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <!-- / Contact -->
+    </main>
+    <footer class="mt-4">
+      <div class="w-full p-4 flex justify-between sm:items-center">
+        <span class="text-sm text-gray-500 sm:text-center"
+          >© 2023 Full Crust.
+        </span>
+        <div class="flex space-x-3">
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
